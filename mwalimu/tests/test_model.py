@@ -9,3 +9,5 @@ class TeacherAppTests(TestCase):
     def test_user_signup(self):
         self.assertEqual(self.user.get_username(), 'user')
         self.assertIsInstance(self.user, User)
+
+
